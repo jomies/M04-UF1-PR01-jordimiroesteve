@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="/CSS/Formulario.css">
+    <link rel="stylesheet" href="/CSS/Common.css">
+    <script src="javascript.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <header>
+            <div class="grid-container-header">
+                <div class="grid-item1">
+                    
+                    <ul class="languaje_items">
+                        <li>
+                            <label for="esp"><a href="../ESP/Index.html"><img src="../resources/esp.png" alt="" height="25%" width="15%"></a></label>
+                        </li>
+                        <li>
+                            <label for="eng"><a href="../ENG/Index.html"><img src="../resources/eng.png" alt="" height="25%" width="15%"></a></label>
+                        </li>
+                    </ul>
+                </div>
+                <nav>
+                    <div class="col-12 col-s-5">
+                        <ul>
+                            <li><a href="Index.html">Inicio</a></li>
+                        <li><a href="BestRestaurants.html">Mejores Restaurantes</a></li>
+                        <li><a href="Ayuda.html">Ayuda</a></li>
+                        <li><a href="Formulario.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="grid-item2">
+                    <h2>Culinary Comet</h2>
+                </div>
+    </header>
+    <div class="row">
+    
+        <section>
+            <div class="col-12 col-s-10">
+                <div class="grid-container-section">
+                    <div class="grid_item1"></div>
+                    <div class="grid_item2">
+                        <div class="contact_form">
+                            <form name="register" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                                <div class="titulos_formulario">
+                                    <h1>Contact Form</h1>
+                                    <h3>Write us and we will contact you shortly</h3>
+                                    <div class="formulario_medidas">
+                                        <input type="text" class="es" id="txtName" placeholder="Name" required/>
+                                    </div>
+
+                                    <div class="formulario_medidas">
+                                        <input type="text" class="es" id="txtSurname" placeholder="Surname" />
+                                    </div>
+            
+                                    <div class="formulario_medidas">
+                                        <input type="text" class="es" id="txtEmail" placeholder="Email" required/>
+                                    </div>
+                                        
+                                    <div class="formulario_medidas">
+                                        <input type="text" class="es" id="txtTel" placeholder="Telephone" />
+                                    </div>
+
+                                    <div class="formulario_medidas">
+                                        <label for="Sexo">Sex:</label>
+                                            <select name="sexo" id="sexo">
+                                                <option value="Hombre">Men</option>
+                                                <option value="Mujer">Woman</option>
+                                                <option value="Otros">Others</option>
+                                            </select>
+                                    </div>
+
+                                    <div class="formulario_medidas">
+                                        <input type="text" class="es" id="txtAsunt" placeholder="Affair" required/>
+                                    </div>
+                                        
+                                    <div class="formulario_medidas">
+                                        <textarea type="text" class="es" id="msg" name="msg" placeholder="Message" required></textarea>
+                                    </div>
+            
+                                    <div class="formulario_medidas">
+                                        <button class="button" type="submit" id="btn" value="Send">Send</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="grid_item3"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="grid-container-footer">
+            <div class="grid-item1">
+                <div class="Localizacion">
+                    <p>Localización:</p>
+                    <p>Plaça del Nord, 14, 08024 Barcelona</p>
+                </div>
+            </div>
+            <div class="grid-item2">
+                <div class="Localizacion_contenido">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11969.
+                                916209882895!2d2.1545826!3d41.4071185!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x520ffb2ea020d42!
+                                2sColegio%20de%20La%20Salle%20Gracia!5e0!3m2!1ses!2ses!4v1606325125268!5m2!1ses!2ses" 
+                                width="40%" height="80" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" margin="auto">
+                    </iframe> 
+                </div>
+            </div>
+            <div class="grid-item3">
+                <div class="Contacto">
+                    <p>Contacto:</p>
+                    <div class="Contacto_contenido">
+                        <div class="gmail">
+                            <p><img src="../resources/outline_email_white_24dp.png" style= "max-width: 100%;height: auto;" width="5%" height="20%">    coulinarycomet@gmail.com</p>
+                        </div>
+                        <div class="tel">
+                            <p><img src="../resources/outline_phone_white_24dp.png" style= "max-width: 100%;height: auto;" width="5%" height="10%">     +34 952 769 785</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
