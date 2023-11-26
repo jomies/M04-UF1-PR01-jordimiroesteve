@@ -1,0 +1,240 @@
+/**********************************************************************
+ * La caixa de les cookies, es base en els estils de modal de boostrap.
+ * Aquí es modifiquen i s'adapten a cada web
+
+ * Hi ha dues opcions de caixa de text: la MODAL amb boostrap i la minimalista al peu
+ *********************************************************************/
+
+.botoAcceptar {
+	/*
+	background-color: #FFFFFF;
+	color: #5a5a5a;
+	padding: 2px;
+	border: 1px solid #5a5a5a;
+	border-radius: 4px;
+	cursor: pointer;
+	*/
+	font-weight: 700;
+}
+.botoAcceptar:hover {
+	/*color: #000000;*/
+	border-color: #000000;
+	font-weight: 700;
+}
+
+#cookies-accept {
+	background-color: #FFFFFF;
+	border-color: #666666;
+	color: #666666;
+	/*
+	padding: 5px;
+	border-color: #5a5a5a;
+	border-radius: 4px;
+	*/
+	font-weight: 700;
+}
+#cookies-accept:hover {
+	color: #000000;
+	border-color: #000000;
+	font-weight: 700;
+}
+
+#mostar_especifiques.CapaOculta {
+	display: none;
+}
+#mostar_especifiques hr {
+	margin: 5px 0px;
+}
+.cookie-item {
+	margin-bottom: 10px;
+}
+ul.cookies-buttons {
+	margin-bottom: 0px;
+}
+
+
+
+/* SOBRESCRIVIM CSS DE LA PROPIA PÀGINA (els checkbox, sinó no es mostren) */
+
+/*
+.checkbox .icheckbox {
+	-moz-box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 1);
+	-webkit-box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 1);
+	box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 1);
+}
+*/
+
+.checkbox input {
+	-moz-box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+	box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.checkbox label {
+	display: inline-block;
+
+}
+
+.checkbox input {
+	display: inline-block;
+	vertical-align: top;
+	cursor: pointer;
+}
+
+/* OPCIÓ MODAL_ Requadre a baix a la dreta, que no es permet tocar res de la pàgina, només es pot interectuar amb la caixa modal. */
+
+#modal-cookie div {
+	color: black;
+}
+
+#modal-cookie div a {
+	color: #043057;
+	font-weight: bold;
+}
+
+#modal-cookie div a:hover {
+	color: #000000;
+	font-weight: bold;
+}
+
+#modal-cookie .modal-dialog {
+	position: fixed;
+	top: auto;
+	right: 0;
+	left: auto;
+	bottom: 0;
+	width: 50%;
+	min-width: 680px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#modal-cookie {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* treure espais del peu del modal del boostrap */
+
+#modal-cookie .modal-footer {
+	margin-top: 0px;
+	padding: 0px;
+}
+
+#modal-cookie .modal-body {
+	padding-top: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#modal-cookie .modal-header {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#modal-cookie .modal-content {
+	font-size: 0.8em;
+	background-color: #EEE;
+	border: 1px solid rgba(0, 0, 0, .5);
+	opacity: 0.90;
+	border-radius: 6px;
+	padding: 10px;
+	margin: 10px;
+}
+
+
+/* OPCIÓ MINIMALISTA Requadre a baix al peu, que permet tocar la pàgina. Si no acccepta les cookies només es poden utilitzar els cookies tècniques */
+
+.caixa_minimalista {
+	position: fixed;
+	z-index: 99;
+	top: auto;
+	right: 0px;
+	bottom: 0px;
+	left: auto;
+	width: 60vw;
+	height: auto;
+	max-width: 680px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.65em;
+	color: #666666;
+}
+.caixa_minimalista.modal {
+	z-index: 1055;
+	top: unset;
+	left: unset;
+	height: auto;
+}
+.caixa_minimalista.modal .modal-dialog {
+	max-width: initial !important;
+}
+
+.caixa_minimalista a {
+	color: #666666;
+	text-decoration: underline;
+}
+
+.caixa_minimalista .modal-content {
+	padding: 10px;
+	overflow: auto;
+	max-height: 100vh;
+}
+
+.caixa_minimalista .modal-footer {
+	padding: 0px 10px;
+	border-top: 0px;
+}
+.caixa_minimalista p {
+	padding-bottom: 5px;
+	margin-bottom: 0px;
+}
+
+.caixa_minimalista .modal-body {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.caixa_minimalista .btn {
+	/*
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 10px;
+	*/
+	margin: 2px 0px;
+	font-size: 1em;
+	text-transform: uppercase;
+	background: #808080;
+	border-color: #808080;
+	color: #fff;
+}
+
+.caixa_minimalista .CapaOculta {
+	padding: 10px 20px 0px;
+}
+
+.caixa_minimalista .modal-header .close {
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+.caixa_minimalista .modal-header {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	border-bottom: 0px;
+}
+
+.caixa_minimalista .text_explicatiu {
+	margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+	.caixa_minimalista {
+		width: 100vw;
+		max-width: 100%;
+	}
+}

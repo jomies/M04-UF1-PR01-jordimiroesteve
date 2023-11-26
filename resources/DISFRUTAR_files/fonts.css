@@ -1,0 +1,146 @@
+@font-face {
+	font-family: 'Canela Light';
+	src: url('./fonts/Canela-Light-Regular/Canela-Light.woff2');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Graphik Black Italic';
+	src: url('./fonts/Graphik-Family/Graphik-BlackItalic.woff2');
+	font-weight: 900;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Graphik Black';
+	src: url('./fonts/Graphik-Family/Graphik-Black.woff2');
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Graphik Bold';
+	src: url('./fonts/Graphik-Family/Graphik-Bold.woff2');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Graphik Bold Italic';
+	src: url('./fonts/Graphik-Family/Graphik-BoldItalic.woff2');
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Graphik Super';
+	src: url('./fonts/Graphik-Family/Graphik-Super.woff2');
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Graphik Super Italic';
+	src: url('./fonts/Graphik-Family/Graphik-SuperItalic.woff2');
+	font-weight: 900;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Graphik Regular';
+	src: url('./fonts/Graphik-Family/Graphik-Regular.woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Graphik Regular Italic';
+	src: url('./fonts/Graphik-Family/Graphik-RegularItalic.woff2');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Graphik Semibold';
+	src: url('./fonts/Graphik-Family/Graphik-Semibold.woff2');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Graphik Light';
+	src: url('./fonts/Graphik-Family/Graphik-Light.woff2');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Graphik Light Italic';
+	src: url('./fonts/Graphik-Family/Graphik-LightItalic.woff2');
+	font-weight: 300;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Graphik Semibold Italic';
+	src: url('./fonts/Graphik-Family/Graphik-SemiboldItalic.woff2');
+	font-weight: 600;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Graphik Extralight';
+	src: url('./fonts/Graphik-Family/Graphik-Extralight.woff2');
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Graphik Extralight Italic';
+	src: url('./fonts/Graphik-Family/Graphik-ExtralightItalic.woff2');
+	font-weight: 200;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Graphik Medium';
+	src: url('./fonts/Graphik-Family/Graphik-Medium.woff2');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Graphik Medium Italic';
+	src: url('./fonts/Graphik-Family/Graphik-MediumItalic.woff2');
+	font-weight: 500;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Graphik Super';
+	src: url('./fonts/Graphik-Family/Graphik-Super.woff2');
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Graphik Thin';
+	src: url('./fonts/Graphik-Family/Graphik-Thin.woff2');
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Graphik Thin Italic';
+	src: url('./fonts/Graphik-Family/Graphik-ThinItalic.woff2');
+	font-weight: 100;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: "Roboto";
+	src: url("./fonts/Roboto-Regular.ttf");
+}
+@font-face {
+	font-family: "Roboto";
+	src: url("./fonts/Roboto-Bold.ttf");
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Source Sans Pro";
+	src: url("./fonts/SourceSansPro-Regular.otf");
+}
+@font-face {
+	font-family: "Source Sans Pro";
+	src: url("./fonts/SourceSansPro-Bold.ttf");
+	font-weight: bold;
+}
+@font-face {
+	font-family: "Source Sans Pro Semibold";
+	src: url("./fonts/SourceSansPro-Semibold.otf");
+}

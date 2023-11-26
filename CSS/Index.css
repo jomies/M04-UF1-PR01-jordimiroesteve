@@ -1,0 +1,66 @@
+
+/* BACKGROUND */
+body background video{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    display: flex;
+}
+
+
+/*SECTION*/
+section{
+    text-align: center;
+}
+section .col-12{
+    width: 100%;
+    color:#fff;
+}
+
+section h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    text-shadow: 0 2px 2px rgba(0,0,0,0.5);
+    margin-top: 10%;
+    animation-name: movement;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+section h3{
+    font-size: 20px;
+    margin-bottom: 13%;
+    animation-name: movement2;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes movement {
+    0%   {font-size: 60px;}
+    25%  {font-size: 50px;}
+    50%  {font-size: 40px;}
+    75%  {font-size: 50px;}
+    100% {font-size: 60px;}
+}
+
+@keyframes movement2 {
+    0%   {font-size: 20px;}
+    25%  {font-size: 15px;}
+    50%  {font-size: 10px;}
+    75%  {font-size: 15px;}
+    100% {font-size: 20px;}
+}
+
+@media(max-width: 900px){
+    .row section{
+        float: left;
+        right: 30px;
+        top: 30px;
+    }
+}

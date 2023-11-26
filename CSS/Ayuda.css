@@ -1,0 +1,95 @@
+
+/* BACKGROUND */
+body{
+    background-image: url(/resources//pngtree-sophisticated-bar-and-restaurant-boasting-luxurious-modern-design-featuring-elegant-furnishings-image_3720689.jpeg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/*SECTION*/
+section .col-12{
+    grid-area: section;
+    position: relative;
+    justify-content: center;
+    color:#fff;
+    text-align: center;
+    display: flex;
+}
+
+section .grid-container-section{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr ;
+}
+
+h1{
+    font-size: 45px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: #ffffff;
+}
+
+section p {
+    overflow: hidden;
+    max-height: 0;
+    text-align: justify;
+    background-color: #07010189;
+    transition: all .2s ease-in-out;
+    width: auto; 
+    height: auto; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #bdbcbc;
+    color: #fff;
+}
+
+section a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #07010189;
+    color: white;
+    width: auto; 
+    height: auto; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #bdbcbc;
+}
+
+section:target p {
+    max-height: 120px;
+    padding: 10px;
+}
+
+/*RESPONSIVE DESIGN*/
+
+@media(max-width: 900px){
+    .grid-container-section h1{
+        font-size: 30px;  
+        text-align: letf; 
+        padding-bottom: 20px; 
+        color: #ffffff;
+        display: auto;
+    }
+
+    .grid-container-section p {
+        font-size: 13px;
+    }
+    
+    .grid-container-section a{
+        font-size: 15px;
+    }
+    section .col-s-10{
+        float: right;
+    }
+    .row section #menu4{
+        margin-bottom: 100px;
+    }
+}

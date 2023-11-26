@@ -1,0 +1,71 @@
+
+/* BACKGROUND */
+body{
+    background-image: url(/resources/pngtree-sophisticated-bar-and-restaurant-boasting-luxurious-modern-design-featuring-elegant-furnishings-image_3720689.jpeg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/*SECTION*/
+section{
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color:black;
+    text-align: center;
+}
+
+.grid-container-section{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 3fr 1fr ;
+    margin: 80px auto;
+}
+
+.grid-container-section .grid_item2{
+    background-color: #fff;
+}
+
+.grid-container-section .grid-container-image{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 2fr 2fr 2fr ;
+    margin: 20px auto;
+}
+
+.grid-container-section .grid-container-image figcaption a{
+    color: black;
+    padding: 2px;
+    font-size: 15px;
+}
+
+.grid-container-section .grid-container-image figcaption a:hover{
+    color: blue;
+    font-size: 17px;
+}
+
+/*RESPONSIVE DESIGN*/
+
+@media(max-width: 900px){
+    .grid-container-section h1{
+        font-size: 25px;
+    }
+
+    .grid-container-section p{
+        font-size: 15px;
+    }
+
+    section .col-s-10{
+        float: right;
+    }
+
+    .grid-container-section .grid-container-image figcaption{
+        display: none;
+    }
+}
